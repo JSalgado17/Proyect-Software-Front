@@ -9,9 +9,7 @@ import Signin from './Components/Views/SigninPage';
 
 function App() {
   return (
-    <Provider store={store}>
-      <Signin></Signin>
-    </Provider>
+   <AppRouter />
   );
 }
 
