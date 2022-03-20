@@ -36,6 +36,7 @@ export default function Footer() {
                     </div>
                     <div className='copyright-container'>
                         <span className='copyright'>&copy; 2021, hoteleria.com </span>
+                        
                     </div>
                 </div>
 

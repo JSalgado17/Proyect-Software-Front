@@ -42,6 +42,7 @@ const SigninPage = () => {
     // }
     return (
         <>
+        <body>
             <Signin
                 txtCorreoValue={txtCorreo}
                 txtPasswordValue={txtPassword}
@@ -52,7 +53,10 @@ const SigninPage = () => {
                 onCancelClick={onCancel}
             />
             <Footer />
+            </body>
+            
         </>
+        
     )
 }
 
