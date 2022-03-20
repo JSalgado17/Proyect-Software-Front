@@ -1,4 +1,5 @@
 import React from 'react'
+import Footer  from '../Componentes/layouts/Footer'
 
 const Vision = () => {
     return (
@@ -9,6 +10,7 @@ const Vision = () => {
             <h1>Vision</h1>
         </div>
 
+ <Footer />
 </body>
     )
 }

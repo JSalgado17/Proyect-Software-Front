@@ -1,5 +1,5 @@
 import React from 'react'
-
+import Footer from '../Componentes/layouts/Footer'
 const Gastronomia = () => {
     return (
         <body>
@@ -7,6 +7,7 @@ const Gastronomia = () => {
             <h1>Gastronomia</h1>
         </div>
 
+<Footer />
 </body>
     )
 }

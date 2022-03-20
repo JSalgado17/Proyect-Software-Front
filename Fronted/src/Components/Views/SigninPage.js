@@ -1,6 +1,7 @@
 import Signin from './Signin';
 import { useState } from 'react';
 import { publicAxios } from '../../Lib/axios';
+import Footer from '../../Componentes/layouts/Footer';
 
 const SigninPage = () => {
     const [txtCorreo, setTxtCorreo] = useState('');
@@ -50,6 +51,7 @@ const SigninPage = () => {
                 onConfirmClick={onConfirm}
                 onCancelClick={onCancel}
             />
+            <Footer />
         </>
     )
 }

@@ -1,4 +1,5 @@
 import React from 'react'
+import Footer from '../Componentes/layouts/Footer'
 const Quienes_Somos = () => {
 
     return (
@@ -11,7 +12,7 @@ const Quienes_Somos = () => {
                 </div>
 
               
-
+            <Footer />
             </body>
         </main>
 

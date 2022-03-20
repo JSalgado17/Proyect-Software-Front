@@ -10,6 +10,7 @@ import Reuniones from '../pages/Reuniones';
 import Balneario from '../pages/Balneario_y_spa';
 import Habitaciones from '../pages/Habitaciones';
 import Layout from '../Componentes/layouts/Layout';
+import SigninPage from '../Components/Views/SigninPage';
 
 
 export default function AppRouter() {
@@ -27,7 +28,7 @@ export default function AppRouter() {
                     <Route exact path='/Balneario-y-Spa' component={Balneario} />
                     <Route exact path='/Habitaciones-y-Suit' component={Habitaciones} />
                     <Route exact path='/Reuniones-y-Eventos' component={Reuniones} />
-                    
+                    <Route exact path='/SigninPage' component={SigninPage}/>
                 </Switch>
             </Layout>
         </Router>
