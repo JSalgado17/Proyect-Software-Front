@@ -1,5 +1,10 @@
 
-
+body{
+    height: 100vh;
+    width: 100%;
+    position: relative;
+  
+  }
 .page_container{
     margin: 0;
     text-align: justify;
@@ -41,7 +46,7 @@
 .page_container.no_header main, .page_container.no_footer main{
     min-height: calc(100vh - 4rem);
 }
-.page_container.no_header.no_footer main{
+.page_container.no_header {
     min-height: 100vh;
 }
 .page_header, .page_footer{
@@ -53,15 +58,5 @@
 
 
 @media (max-width: 768px){
-    .page_container{
-      padding: 2rem;
-      flex-direction: column;
-    }
-    .page_container main{
-        width: 100%;
-        padding: 2 rem 0;
-        border-bottom: 1px solid #2a2a2a;
-        justify-content: center;
-        align-items: center;
-      }
+    
     }

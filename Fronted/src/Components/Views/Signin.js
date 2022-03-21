@@ -35,12 +35,14 @@ const SignIn = ({
                     error={errorPassword}
                     onChange={onChangeHandler}
                 />
-                <PrimaryButton onClick={onConfirmClick}>
+                              <PrimaryButton onClick={onConfirmClick}>
                     Crear Cuenta
                 </PrimaryButton>
                 <SecondaryButton onClick={onCancelClick}>
                     Tengo Cuenta
                 </SecondaryButton>
+               
+
             </section>
         </Page>
     );
