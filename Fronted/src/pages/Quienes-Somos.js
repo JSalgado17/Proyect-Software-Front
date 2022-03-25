@@ -8,7 +8,7 @@ const Quienes_Somos = () => {
 
 
                 <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', height: '90vh' }}>
-                    <h1>Mision</h1>
+                    <h1>Quienes somos</h1>
                 </div>
 
               

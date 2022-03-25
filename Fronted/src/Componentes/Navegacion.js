@@ -21,8 +21,7 @@ export default function Navegacion() {
                     </Nav.Link>
                     <NavDropdown title="Acerca de nosotros" >
                         <NavDropdown.Item as={NavLink} to='/Quienes-Somos' >Quienes Somos</NavDropdown.Item>
-                        <NavDropdown.Item as={NavLink} to='/Mision' >Mision</NavDropdown.Item>
-                        <NavDropdown.Item as={NavLink} to='/Vision' >Vision</NavDropdown.Item>
+                        <NavDropdown.Item as={NavLink} to='/Mision' > Mision y Vision</NavDropdown.Item>
                     </NavDropdown>
 
                 </Nav>
