@@ -27,7 +27,7 @@ export default function Navegacion() {
 
                 </Nav>
                 <Nav>
-                    <Button as={NavLink} to="/SigninPage" variant="outline-success" >Iniciar sesion</Button>
+                    <Button variant="outline-success" as={NavLink} to="/SigninPage">Iniciar sesion</Button>
                     <Button variant="outline-success">Registrarse</Button>
                 </Nav>
 
