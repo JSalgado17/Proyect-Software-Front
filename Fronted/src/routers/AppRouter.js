@@ -10,13 +10,14 @@ import Reuniones from '../pages/Reuniones';
 import Balneario from '../pages/Balneario_y_spa';
 import Habitaciones from '../pages/Habitaciones';
 import Layout from '../Componentes/layouts/Layout';
-import SigninPage from '../Components/Views/SigninPage';
+import SigninPage from '../Components/Views/Signin/SigninPage';
+import Login from '../Components/Views/Login/LoginPage';
+import LoginPage from '../Components/Views/Login/LoginPage';
 
 
 export default function AppRouter() {
     return (
         <Router>
-          
             <Layout>
                 <Switch>
                     <Route exact path='/'  component={Home} />
@@ -29,6 +30,7 @@ export default function AppRouter() {
                     <Route exact path='/Habitaciones-y-Suit' component={Habitaciones} />
                     <Route exact path='/Reuniones-y-Eventos' component={Reuniones} />
                     <Route exact path='/SigninPage' component={SigninPage}/>
+                    <Route exact path='/Login' component={LoginPage}/>
                 </Switch>
             </Layout>
         </Router>

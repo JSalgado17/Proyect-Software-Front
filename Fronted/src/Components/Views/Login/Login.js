@@ -1,26 +1,23 @@
-import Page from "../UX/Page/Page";
-import Input from "../UX/Forms/Input";
-import { PrimaryButton, SecondaryButton } from "../UX/Forms/Button";
-const SignIn = ({
+import Page from "../../UX/Page/Page";
+import Input from "../../UX/Forms/Input";
+import { PrimaryButton, SecondaryButton } from "../../UX/Forms/Button";
+const Login = ({
     txtCorreoValue,
     txtPasswordValue,
     onChange: onChangeHandler,
     errorTxtCorreo,
     errorPassword,
     onConfirmClick,
-    onCancelClick }) => {
+    onCancelClick
+}) => {
     return (
-        <Page header={(<h2>&nbsp;¡Bienvenido al Hotel React!</h2>)}>
+        <Page header={(<h2>&nbsp;Iniciar Sesión</h2>)}>
             <section>
-                <section className="texto">
-                <h3>Crear una nueva cuenta</h3>
-                <h4>Ingrese la información a continuación para configurar una cuenta</h4>
-                </section>
                 <Input
                     label="Correo Electrónico"
                     type="text"
                     name="txtCorreo"
-                    placeholder="Ingrese su Correo Electrónico..."
+                    placeholder="Su Correo Electrónico"
                     value={txtCorreoValue}
                     error={errorTxtCorreo}
                     onChange={onChangeHandler}
@@ -29,23 +26,19 @@ const SignIn = ({
                     label="Contraseña"
                     type="password"
                     name="txtPassword"
-                    placeholder="Ingrese una contraseña..."
+                    placeholder="Contraseña"
                     value={txtPasswordValue}
                     info="Mínimo 8 caractéres, una Mayuscula, una minuscula, un numero y un simbolo"
                     error={errorPassword}
+                    hasError={!!(errorPassword && true)}
                     onChange={onChangeHandler}
                 />
-                              <PrimaryButton onClick={onConfirmClick}>
-                    Crear Cuenta
+                <PrimaryButton onClick={onConfirmClick}>
+                    Iniciar Sesión
                 </PrimaryButton>
-                <SecondaryButton onClick={onCancelClick}>
-                    Tengo Cuenta
-                </SecondaryButton>
-               
-
             </section>
         </Page>
     );
 }
 
-export default SignIn;
+export default Login;

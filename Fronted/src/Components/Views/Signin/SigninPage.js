@@ -1,7 +1,7 @@
 import Signin from './Signin';
 import { useState } from 'react';
-import { publicAxios } from '../../Lib/axios';
-import Footer from '../../Componentes/layouts/Footer';
+import { publicAxios } from '../../../Lib/axios';
+import Footer from '../../../Componentes/layouts/Footer';
 
 const SigninPage = () => {
     const [txtCorreo, setTxtCorreo] = useState('');
@@ -42,21 +42,21 @@ const SigninPage = () => {
     // }
     return (
         <>
-        <body>
-            <Signin
-                txtCorreoValue={txtCorreo}
-                txtPasswordValue={txtPassword}
-                onChange={onChangeHandler}
-                errorTxtCorreo=''
-                errorPassword=''
-                onConfirmClick={onConfirm}
-                onCancelClick={onCancel}
-            />
-            <Footer />
+            <body>
+                <Signin
+                    txtCorreoValue={txtCorreo}
+                    txtPasswordValue={txtPassword}
+                    onChange={onChangeHandler}
+                    errorTxtCorreo=''
+                    errorPassword=''
+                    onConfirmClick={onConfirm}
+                    onCancelClick={onCancel}
+                />
+                <Footer />
             </body>
-            
+
         </>
-        
+
     )
 }
 
