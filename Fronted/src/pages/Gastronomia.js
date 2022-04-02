@@ -1,5 +1,5 @@
 import React from 'react'
-import Footer from '../Componentes/layouts/Footer'
+//import Footer from '../Componentes/layouts/Footer'
 const Gastronomia = () => {
     return (
         <body>
@@ -8,7 +8,7 @@ const Gastronomia = () => {
                     <img src='https://thumbs.dreamstime.com/b/comida-mexicana-doble-borde-vista-superior-sobre-fondo-de-banner-madera-oscura-con-espacio-copia-frontera-el-un-cartel-tacos-191565020.jpg' width={"100%"} height={"100%"}/>
                 </div>
 
-                <div style={{height:"50%",width:"100%"}}>
+                <div style={{height:"40%",width:"100%"}}>
                 <h1 style={{textAlign:"center"}}>Platillos</h1>
                 </div>
 
@@ -58,12 +58,32 @@ const Gastronomia = () => {
                         <text style={{textAlign:"center"}}>Filete Mignon_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _L.325</text><br/>
                         <text style={{textAlign:"center"}}>Puyaso _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _L.320</text><br/>
                         <text style={{textAlign:"center"}}>Filete a la pimienta _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ L.140</text><br/>
+                    </div> 
+
+                    <div style={{height:"40%",width:"100%"}}>
+                <h1 style={{textAlign:"center"}}>Bebidas</h1>
+                </div>
+
+                    <div style={{display:'flex',flexWrap:"wrap", height:"50%", width:"100%"}}>
+                    <div style={{width:"45%",flexDirection:"column", margin:"1%"}}>
+                        <h5 style={{textAlign:"center"}}>Cocteles</h5>
+                        <text style={{textAlign:"center"}}>Piña Colada_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _L.80</text><br/>
+                        <text style={{textAlign:"center"}}>Mojito _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _L.95</text><br/>
+                        <text style={{textAlign:"center"}}>Daiquiri_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ L.70</text><br/>
+                        <text style={{textAlign:"center"}}>Bloody Mary_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ L.85</text><br/>
+                    </div>
+                <div style={{width:"45%",flexDirection:"column", margin:"1%"}}>
+                    <h5 style={{textAlign:"center"}}>Sin Alcohol</h5>
+                        <text style={{textAlign:"center"}}>Gaseosas _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _L.45</text><br/>
+                        <text style={{textAlign:"center"}}>Agua _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ L.25</text><br/>
+                        <text style={{textAlign:"center"}}>Jugos Naturales_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _L.65</text><br/>
+                        <text style={{textAlign:"center"}}>Energizantes_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _L.80</text><br/>
                     </div>
                 </div>
                 </div>
                 </div>
                 </div>
-<Footer />
+                </div>
 </body>
     )
 }
