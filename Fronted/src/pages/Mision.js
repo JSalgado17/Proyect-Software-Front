@@ -5,7 +5,7 @@ import Footer from '../Componentes/layouts/Footer'
 const Mision = () => {
     return (
         <body>
-            <div style={{ display: 'flex', flexDirection:"column", height: '60%' }}>
+            <div style={{ display: 'flex', flexDirection:"column", height: '60%', alignItems:"center"}}>
                 <div style={{height:"50%",width:"100%"}}>
                     <img src={mision} style={{height:"125%",width:"100%"}}/>
                 </div>
