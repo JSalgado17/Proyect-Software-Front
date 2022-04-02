@@ -6,6 +6,7 @@ const Mision = () => {
             <div style={{ display: 'flex', flexDirection:"column", height: '60%' }}>
                 <div style={{height:"50%",width:"100%"}}>
                     <img src='https://www.finut.org/wp-content/uploads/2019/04/Comida-diversa.jpg' width={"100%"} height={"100%"}/>
+                    <img src='https://www.hotel-helicopter.com/assets/components/phpthumbof/cache/hotel-helicopter-kremenchug-suite-panoramic.1dc001607ea4e549fcba1b69b76ef98f71.jpg' width={"100%"} height={"100%"}/>
                 </div>
                 <div style={{display:'flex',flexWrap:"wrap", height:"50%", width:"100%"}}>
                     <div style={{width:"45%",flexDirection:"column", margin:"1%"}}>
