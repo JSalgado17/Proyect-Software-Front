@@ -17,19 +17,19 @@ const Gastronomia = () => {
                 <div class='card'>
                     <img src="https://images.pexels.com/photos/2641886/pexels-photo-2641886.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" />
                     <h4>Comidas</h4>
-                    <p>Lorem ipsum dolor sut amet, consectetur adisping elit, vel, excepture unde</p>
+                    <p>Deleita tu paladar con nuestros platillos, lo mejor en gastronomia en la zona</p>
                     <a href='#Comidas'>Leer mas</a>
                 </div>
                 <div class='card'>
                     <img src="https://images.pexels.com/photos/667986/pexels-photo-667986.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" />
                     <h4>Bebidas</h4>
-                    <p>Lorem ipsum dolor sut amet, consectetur adisping elit, vel, excepture unde</p>
+                    <p>Lo mejor en bebidas de tu preferencia, atrevete a combinar con nosotros</p>
                     <a href='#Bebidas'>Leer mas</a>
                 </div>
                 <div class='card'>
                     <img src="https://images.pexels.com/photos/709841/pexels-photo-709841.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" />
                     <h4>Postres</h4>
-                    <p>Lorem ipsum dolor sut amet, consectetur adisping elit, vel, excepture unde</p>
+                    <p>Atrevete a probar con nosotros mezclas distintas, que satisfaceran tus mejores gustos</p>
                     <a href='#Postres'>Leer mas</a>
                 </div>
             </div>
@@ -119,32 +119,32 @@ const Gastronomia = () => {
                                 </div>
                                 <div style={{ display: 'flex', flexWrap: "wrap", height: "50%", width: "100%" }}>
                                     <div style={{ width: "45%", flexDirection: "column", margin: "1%" }}>
-                                        <h5 style={{ textAlign: "center" }}>Cocteles</h5>
-                                        <text style={{ textAlign: "center" }}>Piña Colada_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _L.80</text><br />
-                                        <text style={{ textAlign: "center" }}>Mojito _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _L.95</text><br />
-                                        <text style={{ textAlign: "center" }}>Daiquiri_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ L.70</text><br />
-                                        <text style={{ textAlign: "center" }}>Bloody Mary_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ L.85</text><br />
+                                        <h5 style={{ textAlign: "center" }}>Helados</h5>
+                                        <text style={{ textAlign: "center" }}>Macflurry _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _L.180</text><br />
+                                        <text style={{ textAlign: "center" }}>Banana Split_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _L.195</text><br />
+                                        <text style={{ textAlign: "center" }}>Frappe Oreo_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _L.170</text><br />
+                                        <text style={{ textAlign: "center" }}>Sundae_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _L.185</text><br />
                                     </div>
                                     <div style={{ width: "45%", flexDirection: "column", margin: "1%" }}>
-                                        <h5 style={{ textAlign: "center" }}>Sin Alcohol</h5>
-                                        <text style={{ textAlign: "center" }}>Gaseosas _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _L.45</text><br />
-                                        <text style={{ textAlign: "center" }}>Agua _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ L.25</text><br />
-                                        <text style={{ textAlign: "center" }}>Jugos Naturales_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _L.65</text><br />
-                                        <text style={{ textAlign: "center" }}>Energizantes_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _L.80</text><br />
+                                        <h5 style={{ textAlign: "center" }}>Típicos</h5>
+                                        <text style={{ textAlign: "center" }}>Flan de Coco_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _L.65</text><br />
+                                        <text style={{ textAlign: "center" }}>Gelatinas _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _L.35</text><br />
+                                        <text style={{ textAlign: "center" }}>Tres leches_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ L.75</text><br />
+                                        <text style={{ textAlign: "center" }}>Pie de Limon _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _L.80</text><br />
                                     </div>
                                     <div style={{ width: "45%", flexDirection: "column", margin: "1%" }}>
-                                        <h5 style={{ textAlign: "center" }}>Sin Alcohol</h5>
-                                        <text style={{ textAlign: "center" }}>Gaseosas _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _L.45</text><br />
-                                        <text style={{ textAlign: "center" }}>Agua _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ L.25</text><br />
-                                        <text style={{ textAlign: "center" }}>Jugos Naturales_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _L.65</text><br />
-                                        <text style={{ textAlign: "center" }}>Energizantes_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _L.80</text><br />
+                                        <h5 style={{ textAlign: "center" }}>Para acompañar el café</h5>
+                                        <text style={{ textAlign: "center" }}>Brownie Clasico_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _L.80</text><br />
+                                        <text style={{ textAlign: "center" }}>Torta de Vainilla_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _L.72</text><br />
+                                        <text style={{ textAlign: "center" }}>Muffins_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ L.86</text><br />
+                                        <text style={{ textAlign: "center" }}>Biscotti de Almendras_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ L.90</text><br />
                                     </div>
                                     <div style={{ width: "45%", flexDirection: "column", margin: "1%" }}>
-                                        <h5 style={{ textAlign: "center" }}>Sin Alcohol</h5>
-                                        <text style={{ textAlign: "center" }}>Gaseosas _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _L.45</text><br />
-                                        <text style={{ textAlign: "center" }}>Agua _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ L.25</text><br />
-                                        <text style={{ textAlign: "center" }}>Jugos Naturales_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _L.65</text><br />
-                                        <text style={{ textAlign: "center" }}>Energizantes_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _L.80</text><br />
+                                        <h5 style={{ textAlign: "center" }}>Liquidos</h5>
+                                        <text style={{ textAlign: "center" }}>Licuados_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _L.45</text><br />
+                                        <text style={{ textAlign: "center" }}>Monkey Lala _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _L.25</text><br />
+                                        <text style={{ textAlign: "center" }}>Granitas_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _L.65</text><br />
+                                        <text style={{ textAlign: "center" }}>Baileys_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _L.80</text><br />
                                     </div>
                                 </div>
                             </div>
