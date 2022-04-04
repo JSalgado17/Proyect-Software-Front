@@ -38,7 +38,6 @@ La empresa cuenta con un departamento de calidad, que vela por el cumplimiento d
                     </div>
                 </div>
             </body>
-            <Footer />
         </main>
 
     )
