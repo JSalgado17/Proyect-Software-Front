@@ -11,7 +11,8 @@ import Habitaciones from '../pages/Habitaciones';
 import Layout from '../Componentes/layouts/Layout';
 import SigninPage from '../Components/Views/Signin/SigninPage';
 import LoginPage from '../Components/Views/Login/LoginPage';
-
+import Clientes from '../pages/Clientes';
+import search from '../pages/search';
 
 export default function AppRouter() {
     return (
@@ -28,6 +29,8 @@ export default function AppRouter() {
                     <Route exact path='/Reuniones-y-Eventos' component={Reuniones} />
                     <Route exact path='/SigninPage' component={SigninPage}/>
                     <Route exact path='/Login' component={LoginPage}/>
+                    <Route exact path='/Clientes' component={Clientes}/>
+                    <Route exact path='/search' component={search}/>
                 </Switch>
             </Layout>
         </Router>

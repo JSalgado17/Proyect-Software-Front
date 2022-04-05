@@ -14,10 +14,8 @@ export default function Navegacion() {
                     <Nav.Link as={NavLink} to='/Reuniones-y-Eventos' >Reuniones y Eventos </Nav.Link>
                     <Nav.Link as={NavLink} to='/Gastronomia'>Gastronomia</Nav.Link>
                     
-                    <Nav.Link as={NavLink} to='/Contacto'>
-                        Contacto
-                    </Nav.Link>
-                    <Nav.Link as={NavLink} to='/Balneario-y-Spa'>
+                
+                    <Nav.Link as={NavLink} to='/Clientes'>
                         Clientes
                     </Nav.Link>
                     <NavDropdown title="Acerca de nosotros" >

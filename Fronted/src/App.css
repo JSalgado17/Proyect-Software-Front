@@ -9,7 +9,15 @@ body {
   width: 100%;
   position: relative;
   
+}
 
+.Reservacion{
+  text-align: center;
+  font-size: 25px;
+  color: #000000;
+  margin-top: 1rem;
+  font-weight: 100;
+  text-shadow: 0 0 8px rgba(255, 255, 255, 0.8);
 }
 
 .titleG {
@@ -71,6 +79,9 @@ body {
   text-decoration: none;
   color: #3498db;
 }
+.rdrStaticRanges button{
+  color: #000000;
+}
 
 .ContenidoG {
   margin-top: 3rem;
@@ -87,6 +98,10 @@ body {
   margin-right: 18%;
   color: #000000;
   text-shadow: 0 0 8px rgba(255, 255, 255, 0.8);
+}
+
+.Fecha{
+  position: relative;
 }
 
 .carousel-inner img {
@@ -113,6 +128,16 @@ body {
   position: relative;
 }
 
+.TextoCliente{
+  font-family: 'Berkshire Swash', sans-serif;
+  font-size: 3rem;
+  color: white;
+  position: absolute;
+  top: 21%;
+  left: 50%;
+  transform: translate(-50%, 50%);
+  text-shadow: 0 0 8px rgba(0, 0, 0, 0.8);
+}
 .ContainerS p {
   font-family: 'Berkshire Swash', sans-serif;
   font-size: 3rem;
@@ -128,6 +153,7 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
 
 .slider-frame {
 	width: 1280px;
