@@ -83,7 +83,7 @@ const Gastronomia = () => {
                                     <text style={{ textAlign: "center" }}>Plato Tipico_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _L.185</text><br />
                                 </div>
                                 <div style={{ width: "45%", flexDirection: "column", margin: "1%" }}>
-                                    <h5 style={{ textAlign: "center" }}>Carnes</h5>
+                                    <h5 style={{ textAlign: "center" }}>Asados</h5>
                                     <text style={{ textAlign: "center" }}>Filete Tornado (Res y Camaron)_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _L.370</text><br />
                                     <text style={{ textAlign: "center" }}>Filete Mignon_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _L.325</text><br />
                                     <text style={{ textAlign: "center" }}>Puyaso _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _L.320</text><br />

@@ -87,6 +87,7 @@ const Reuniones = () => {
                         </div>
                     </div>
                 </div>
+                <Footer />
         </body>
     )
 }
